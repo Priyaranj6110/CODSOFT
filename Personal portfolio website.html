@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+    body{
+        background-color: rgb(2, 35, 45);
+        color: bisque;
+     }
+     nav{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+       height: 75px;
+       background-color:rgba(98, 105, 36, 0.4);
+     }
+     nav ul{
+        justify-content: center;
+        display: flex;
+     }
+     nav ul li{
+        
+        list-style: none;
+        margin: 25px;
+     }
+     nav ul li a:hover{
+        text-decoration: none;
+        color: brown;
+        font-size:4rem;
+     }
+     .left{
+        font-size: 26px;
+     }
+     .firstsection{
+        display: flex;
+        justify-content: space-around;
+        margin: 20px;
+        align-items: center;
+     }
+     .firstsection> div{
+        width: 40%;
+     }
+     main hr{
+        background: red;
+        height: 2px;
+        border: 0px;
+        margin: 50px;
+     }
+     .leftsection{
+       /* background-color: crimson;*/
+        font-size: 2rem;
+        font-weight: 100;
+     }
+     .leftsection .buttons{
+        padding: 63px;
+     }
+     .leftsection .btn{
+        padding:18 px;
+        background: rgb(180, 64, 6);
+        color: whitesmoke;
+        border: 2px solid white;
+        border-radius: 8px;
+        font-size: 20px;
+        cursor: pointer;
+     }
+     .rightsection img{
+        width: 99%;
+        margin: 80px;
+        
+     }
+    /* .leftsection div{
+        background-color: brown;
+     }*/
+     .purple{
+        color: blueviolet;
+     }
+     .text-gray{
+        color: gray;
+     }
+     .pink{
+        color:pink;
+        font-size: 2rem;
+        margin: 500px;
+        font-style:normal ;
+    
+    }
+    .green{
+        color: greenyellow;
+    }
+     #element{
+        color: blueviolet;
+     }
+     .secondsection{
+       max-width: 80vw;
+       margin: auto;
+       height: 99vh;
+   
+    
+     }
+     .secondsection h1{
+        font-size: 2rem;
+     }
+     .secondsection .box{
+        background-color: whitesmoke;
+        width: 70vw;
+        margin: 50px;
+        height: 2px;
+        display: flex;
+     }
+     .secondsection .vertical{
+        height: 95px;
+        width: 2px;
+        background-color: rgb(195, 186, 186);
+        margin: 99px;
+        padding: 40px;
+     }
+     .image-top{
+        width: 200px;
+        top: -70px;
+        left: -150px;
+        position: relative;
+     }
+     .vertical-title{
+        position: relative;
+        width: 600px;
+        top: 99px;
+        font-size: 20px;
+        right: 50px;
+     }
+     .vertical-desc{
+        position: relative;
+        width: 150px;
+        top: 300px;
+        right: 250px;
+     }
+     .Thirdsection{
+        max-width: 80vw;
+        margin: auto;
+        height: 100vh;}
+     .Thirdsection h1{
+       font-size: 2rem;
+       margin: auto;
+     }
+     .thirdsection .box{
+        background: rgb(12, 207, 225);
+        width: 80vw;
+        margin: 56px 0px;
+        height: 2px;
+        display: flex;
+
+
+     }
+     .thirdsection .vertical{
+        height: 300px;
+        width: 1px;
+        background-color: rgb(0, 0, 0);
+        margin: 0 100px;
+       
+       
+    }
+    .image-low{
+        width: 200px;
+        top: 40px;
+        left: -30px;
+        position: relative;
+    }
+   .vertical-tense{
+        position: relative;
+        width: 600px;
+        top: -20px;
+        font-size: 20px;
+        right: 100px;
+     }
+     .vertical-disc{
+        position: relative;
+        width: 200px;
+        top: 230px;
+        right:70px;
+     }
+    .footer{
+        display: flex;
+    }
+
+
+        
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Priyeranjan Portfolio</div>
+            <div class="right">
+                <ul>
+                   <a href="/"> <li>Task</li></a>
+                    <a href="/"><li>Download</li></a>
+                   <a href="/"><li>My Information</li></a> 
+                    <a href="/"><li>Acheivement</li></a>
+                   <a href="/"><li>contact me</li></a> 
+                  <a href="/"><li>Blog</li></a>  
+                </ul>
+            </div>
+
+
+
+
+        </nav>
+
+
+
+
+
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hii This is my Portfolio and i am <span class="purple">Data Analyst</span> and passionate web developer
+                <span id="element"></span> 
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">Linkedn</button>
+                </div>
+            </div>
+            <div class="rightsection">
+                <img src="C:\Users\HP\Downloads\financial-statement-analysis-report-management-analytics-marketing-a717caacf03b6aaa128b3ef41b0a1a61.png" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondsection">
+            <span class="text-gray"> What Project I Have Done Till Date</span>
+            <h1>My Resume/CV</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="https://img.freepik.com/free-vector/creative-gradient-code-logo_23-2148820572.jpg?size=338&ext=jpg&ga=GA1.1.1141335507.1719446400&semt=ais_user" alt="">
+                </div>
+                <div class="vertical-title">
+                    Web Development Project
+                </div>
+                <div class="vertical-desc">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas.
+                    
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="C:\Users\HP\Downloads\pngwing.com (1).png" alt="">
+                </div>
+                <div class="vertical-title">
+                    Data Science Project
+                    <div>(Python, Pandas, Seaborn,Matplotlib)</div>
+                </div>
+                <div class="vertical-desc">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam!
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="C:\Users\HP\Downloads\png-transparent-data-analysis-data-quality-analytics-pattaya-data-pattaya-analysis-thumbnail.png" alt="">
+                </div>
+                <div class="vertical-title">
+                    Tableau Dashboard and Regression Analysis Project
+                </div>
+                <div class="vertical-desc">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi.
+                </div>
+                
+                
+            </div>
+            
+            
+        </section>
+        <hr>
+        <section class="thirdsection">
+            <span class="pink">What Certification course I have done</span>
+            <h1>Acheivement in Certification</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-low" src="C:\Users\HP\Downloads\png-clipart-finance-financial-modeling-return-on-investment-budget-computer-icons-save-text-trademark-thumbnail.png" alt="">
+                </div>
+                <div class="vertical-tense">
+                    Financial Modelling
+                </div>
+              <div class="vertical-disc">
+                    (Financial Evaluation,Financial Ratio,Financial management)
+                </div>
+                <div class="vertical">
+                    <img class="image-low" src="https://icon2.cleanpng.com/20180528/sap/kisspng-big-data-data-analysis-analytics-tableau-software-bigdata-5b0c8cae74b594.7311945315275491024781.jpg" alt="">
+                </div>
+                <div class="vertical-tense">
+                   Data Science
+                </div>
+                <div class="vertical-disc">
+                  (Python,Numpy,Pandas,Matplotlib,Seaborn)
+                </div>
+                <div class="vertical">
+                    <img class="image-low" src="C:\Users\HP\Downloads\product-management.png" alt="">
+                </div>
+                <div class="vertical-tense">
+                  Product Management
+                </div>
+                <div class="vertical-disc">
+                   (lifecycle of the product,Product Planning,Product Execution,Product Design)
+
+                </div>
+              
+                
+            </div>
+        </section>
+      
+       
+
+
+
+       
+        
+       
+        
+       
+        
+    </main>
+    <footer>
+        <div class="flex">
+            <div class="footer-first">
+                <h2></h2>
+            </div>
+
+            <div class="footer-second"></div>
+            <div class="footer-third"></div>
+            <div class="footer-fourth"></div>
+
+
+
+
+
+
+
+
+        </div>
+    </footer>
+
+    
+    
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web developer', 'Data analyst','Business analyst'],
+          typeSpeed: 50,
+        });
+      </script>
+    
+</body>
+</html>
